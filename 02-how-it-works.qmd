@@ -35,7 +35,7 @@ Use the ![](images/render.png){width="60"} (**Render**) button in the RStudio ID
 
 If you prefer to automatically render whenever you save you can check the **Render on Save** option on the editor toolbar.
 The preview will update whenever you re-render the document.
-Side-by-side preview works for both HTML and PDF output.
+Side-by-side preview works for both HTML and PDF outputs.
 
 ![](images/render-on-save.png){fig-alt="Top of the editor in the RStudio IDE with \"Render on Save\" checked" width="798"}
 
