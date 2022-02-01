@@ -31,7 +31,7 @@ Notice that the file contains three types of content:
 
 ## Rendering output
 
-Use the ![](images/render.png){width="60"} (*Render* ) button in the RStudio IDE to render the file and preview the output with a single click or keyboard shortcut (⇧⌘K).
+Use the ![](images/render.png){width="60"} (**Render**) button in the RStudio IDE to render the file and preview the output with a single click or keyboard shortcut (⇧⌘K).
 
 If you prefer to automatically render whenever you save you can check the **Render on Save** option on the editor toolbar.
 The preview will update whenever you re-render the document.
