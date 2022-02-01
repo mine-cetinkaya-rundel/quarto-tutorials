@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "07-computation.html",
+    "href": "07-computation.html",
+    "title": "Computation",
+    "section": "",
+    "text": "Note\n\n\n\nSimilar to https://quarto.org/docs/computations/running-code.html (code blocks, rendering, inline code) featuring R code first then python example."
+  },
+  {
+    "objectID": "02-how-it-works.html#rendering-output",
+    "href": "02-how-it-works.html#rendering-output",
+    "title": "How it works",
+    "section": "Rendering output",
+    "text": "Rendering output\nUse the  (Render) button in the RStudio IDE to render the file and preview the output with a single click or keyboard shortcut (⇧⌘K).\nIf you prefer to automatically render whenever you save you can check the Render on Save option on the editor toolbar. The preview will update whenever you re-render the document. Side-by-side preview works for both HTML and PDF outputs.\n\nWhen rendering, Quarto generates a new file that contains selected text, code, and results from the .qmd file. The new file can be an HTML, PDF, MS Word document, presentation, website, book, interactive document, or other format.\nYou can also render the document using the functions from the quarto package, which provides an R interface to the Quarto CLI:\n\nquarto::quarto_render()"
+  },
+  {
+    "objectID": "02-how-it-works.html#notebook-interface",
+    "href": "02-how-it-works.html#notebook-interface",
+    "title": "How it works",
+    "section": "Notebook interface",
+    "text": "Notebook interface\nWhen you open the file in the RStudio IDE, it becomes a notebook interface for R. You can run each code chunk by clicking the  icon. RStudio executes the code and displays the results either inline within your file or in the Console."
+  },
+  {
+    "objectID": "02-how-it-works.html#how-it-works",
+    "href": "02-how-it-works.html#how-it-works",
+    "title": "How it works",
+    "section": "How it works",
+    "text": "How it works\nWhen you render a Quarto document, first knitr executes all of the code chunks and creates a new markdown (.md) document which includes the code and its output. This markdown file generated is then processed by pandoc, which creates the finished format. The Render button encapsulates these actions and executes them in the right order for you."
+  },
+  {
+    "objectID": "01-hello-quarto.html",
+    "href": "01-hello-quarto.html",
+    "title": "Hello Quarto!",
+    "section": "",
+    "text": "Quarto® is an open-source scientific and technical publishing system built on Pandoc.\nWith Quarto, you can create dynamic documents with Python, R, and JavaScript via integration with Jupyter, Knitr, and Observable, and publish high-quality articles, reports, presentations, websites, and books in HTML, PDF, MS Word, ePub, and more. Authoring in Quarto allows you to create fully reproducible documents using scientific markdown and easily and with minimal syntax include equations, citations, cross references, figure panels, and callouts. Quarto is designed to produce elegant outputs out of the box as well as make it easy to customize the layout and look of your documents.\n\nTo get started with Quarto in the RStudio IDE,\n\nInstall download the RStudio daily build from https://dailies.rstudio.com, includes support for editing and preview of Quarto documents.\nLaunch RStudio and go to R Markdown Preferences to enable Quarto features using the version of Quarto built-in to RStudio. Alternatively, If you have already installed the Quarto CLI then RStudio will detect this and enable Quarto features automatically."
+  }
+]
