@@ -1,0 +1,7 @@
+---
+title: "Computation"
+---
+
+::: callout-note
+Similar to https://quarto.org/docs/computations/running-code.html (code blocks, rendering, inline code) featuring R code first then python example.
+:::

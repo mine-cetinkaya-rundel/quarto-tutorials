@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Get Started"
+  page-navigation: true
+  sidebar:
+    contents:
+    - section: "Get Started"
+      contents:
+        - href: 01-hello-quarto.qmd
+        - href: 02-how-it-works.qmd
+        - href: 03-first-document.qmd
+        - href: 04-first-presentation.qmd
+        - href: 05-first-website.qmd
+        - href: 06-first-book.qmd
+        - href: 07-computation.qmd
+        - href: 08-enhancing.qmd
+        - href: 09-interactivity.qmd
+        - href: 10-customizing.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+editor: visual
