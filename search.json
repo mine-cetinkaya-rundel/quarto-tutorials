@@ -33,5 +33,12 @@
     "title": "Hello Quarto!",
     "section": "",
     "text": "Quarto® is an open-source scientific and technical publishing system built on Pandoc.\nWith Quarto, you can create dynamic documents with Python, R, and JavaScript via integration with Jupyter, Knitr, and Observable, and publish high-quality articles, reports, presentations, websites, and books in HTML, PDF, MS Word, ePub, and more. Authoring in Quarto allows you to create fully reproducible documents using scientific markdown and easily and with minimal syntax include equations, citations, cross references, figure panels, and callouts. Quarto is designed to produce elegant outputs out of the box as well as make it easy to customize the layout and look of your documents.\n\nTo get started with Quarto in the RStudio IDE,\n\nInstall download the RStudio daily build from https://dailies.rstudio.com, includes support for editing and preview of Quarto documents.\nLaunch RStudio and go to R Markdown Preferences to enable Quarto features using the version of Quarto built-in to RStudio. Alternatively, If you have already installed the Quarto CLI then RStudio will detect this and enable Quarto features automatically."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Get Started",
+    "section": "",
+    "text": "These tutorials will eventually go to https://quarto.org/docs/getting-started/."
   }
 ]
